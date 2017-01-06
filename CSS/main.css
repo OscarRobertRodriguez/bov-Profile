@@ -1,0 +1,262 @@
+
+
+
+
+/* ---------------------------------------------- */
+/* --------------->>> GLOBAL <<<----------------- */
+/* ---------------------------------------------- */
+
+html, body {
+    height: 100%;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+
+/* ---------------------------------------------- */
+/* --------------->>> HEADER <<<----------------- */
+/* ---------------------------------------------- */
+
+
+/* ------------------------------------------------------ */
+/* --------------->>> PAGE STRUCTURE <<<----------------- */
+/* ------------------------------------------------------ */
+
+.flex-container {
+    display: flex;
+    height: 50%;
+}
+
+
+div[class^="square"] {
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div[class^="circle"] {
+    position: relative;
+    display: flex;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: 24px 20px 50px 2px rgba(0, 0, 0, 0.5),inset 2px 2px 15px 2px rgba(255,255,255,.25);
+    align-items: center;
+    justify-content: center;
+    transition: .2s ease-in;
+    cursor: pointer;
+
+}
+
+
+.modal {
+    display:none;
+    opacity:0;
+    background-color: inherit;
+    width:inherit;
+    height:inherit;
+}
+
+.shrinkModal {
+    border-top-left-radius:200px;
+    border-top-right-radius:200px;
+    background-color: black;
+
+
+}
+
+div[class^="circle"] > progress {
+    visibility: hidden;
+    position: absolute;
+    bottom: 40px;
+    height:30px;
+}
+
+
+.close {
+    display: none;
+    position:absolute;
+    right: 0;
+    bottom:0;
+    text-decoration:none;
+    font-size:30px;
+    color:black;
+    border:1px solid white;
+    border-radius:50%;
+    background-color:white;
+    width:30px;
+    text-align:center;
+}
+.close:hover {
+    color:white;
+    background-color:black;
+    border:none;
+}
+
+/*Images*/
+
+.modal > img {
+    display: none;
+}
+
+.modal > img.grouchy {
+    margin: 40px auto;
+    border-radius:5px;
+    width:500px;
+    height:300px;
+
+}
+
+    .dog {
+        float:left;
+        margin: 10px;
+        border-radius: 5px;
+        width: 400px;
+        height: 300px;
+    }
+
+    .cat {
+        magin: 10px;
+        float: left;
+        border-radius: 5px;
+        width: 400px;
+        height: 400px;
+    }
+
+    .harambe {
+        margin: 20px auto;
+        width:400px;
+        height: 500px;
+    }
+
+
+    .me {
+        display:none;
+        width: 100%;
+        border-radius:50%;
+        height: 300px;
+    }
+
+/* ------------------------------------------------------ */
+/* --------------->>> PAGE STYLE/THEME<<<----------------  */
+/* ------------------------------------------------------ */
+
+
+/*squares*/
+
+    .square-1 {
+    background-color: #d87879;
+
+    }
+
+    .square-2 {
+    background-color: #fcc900;
+    }
+
+    .square-3 {
+    background-color: #7979ff;
+
+    }
+
+    .square-4 {
+    background-color: #026dba;
+    }
+
+    .square-5 {
+    background-color: #52ae41;
+    }
+
+    .square-6 {
+    background-color: #55c3ec;
+    }
+
+
+
+
+
+/* ------------------------------------------------------ */
+/* ---------------->>> ANIMATION <<<---------------------  */
+/* ------------------------------------------------------ */
+
+
+div[class^="circle"]:hover {
+    box-shadow: none;
+    color:#fff;
+    border: 20px solid white;
+    border-radius:0;
+
+}
+
+
+/* ------------------------------------------------ */
+/* --------------->>> HEADINGS <<<----------------- */
+/* ------------------------------------------------ */
+
+div[class^="circle"] > h1 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+
+
+
+/* --------------------------------------------------- */
+/* --------------->>> TEXT STYLES <<<----------------- */
+/* --------------------------------------------------- */
+
+
+.intro {
+    display:none;
+    width: 500px;
+    margin: 0 auto;
+    font-size: 5rem;
+    color:#fff;
+}
+
+.profilePara {
+    display:none;
+    width: 100%;
+    font-size: 30px;
+    color: #fff;
+    line-height: 50px;
+    letter-spacing: 1px;
+    text-align:center;
+}
+
+
+/* --------------------------------------------------- */
+/* --------------->>> LINKS <<<----------------------- */
+/* --------------------------------------------------- */
+
+
+
+
+/* -------------------------------------------------- */
+/* --------------->>> NAVIGATION <<<----------------- */
+/* -------------------------------------------------- */
+
+
+/* --------------------------------------------- */
+/* --------------->>> FORMS <<<----------------- */
+/* --------------------------------------------- */
+
+
+
+/* ------------------------------------------------ */
+/* --------------->>> COMMENTS <<<----------------- */
+/* ------------------------------------------------ */
+
+
+/* ---------------------------------------------- */
+/* --------------->>> EXTRAS <<<----------------- */
+/* ---------------------------------------------- */
+
+
+
+
+
